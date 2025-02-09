@@ -40,7 +40,15 @@ const shadowHeader = () => {
 window.addEventListener("scroll", shadowHeader);
 
 /*=============== SHOW SCROLL UP ===============*/ 
+const scrollUp = () => {
+  const scrollUpElement = document.getElementById("scroll-up");
+  // When the scroll is higher than 350 viewport height, add the show-scroll class to the a tag with the scrollup class
+  window.scrollY >= 350
+    ? scrollUpElement.classList.add("show-scroll")
+    : scrollUpElement.classList.remove("show-scroll");
+};
 
+window.addEventListener("scroll", scrollUp);
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
