@@ -1,376 +1,423 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
-
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
-
-      <title>Fruits</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         <nav class="nav container">
-          <a href="#" class="nav__logo">
-            <img src="assets/img/logo.png" alt="logo">Fruits
-          </a>
-
-          <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="#home" class="nav__link">Accueil</a>
-              </li>
-              
-              <li class="nav__item">
-                <a href="#about" class="nav__link">À Propos</a>
-              </li>
-
-              <li class="nav__item">
-                <a href="#popular" class="nav__link">Populaire</a>
-              </li>
-
-              <li class="nav__item">
-                <a href="#join" class="nav__link">Contact</a>
-              </li>
-            </ul>
-
-            <!-- Close Button -->
-            <div class="nav__close" id="nav-close">
-              <i class="ri-close-line"></i>
-            </div>
-
-            <img src="assets/img/branch-2.png" alt="image" class="nav__img-1">
-            <img src="assets/img/fruit-line-1.png" alt="image" class="nav__img-2">
-          </div>
-
-          <div class="nav__buttons">
-            <!-- Dark & Light mode -->
-            <i class="ri-moon-line change-theme" id="theme-button"></i>
-            <!-- <i class="ri-sun-line change-theme" id="theme-button"></i> -->
-            
-            <!-- Toggle button -->
-            <div class="nav__toggle" id="nav-toggle">
-              <i class="ri-apps-2-line"></i>
-            </div>
-          </div>
-         </nav>
-      </header>
-
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            <div class="home__container container grid">
-              <div class="home__data">
-                <h1 class="home__title">
-                  Savourez <br>
-                  Les Meilleurs <br>
-                  Fruits Frais
-                </h1>
-
-                <p class="home__description">
-                  Dégustez les meilleurs fruits bio, récoltés avec le plus grand soin pour une qualité optimale, offrant des saveurs uniques et délicieuses.
-                </p>
-
-                <a href="#" class="button">
-                  Commander
-                </a>
-
-                <img src="assets/img/fruit-line-2.png" alt="image" class="home__fruit">
-              </div>       
-
-              <img src="assets/img/home-fruits.png" alt="image" class="home__img">
-            </div>
-
-            <img src="assets/img/branch-2.png" alt="image" class="home__branch">
-         </section>
-
-         <!--==================== ENJOY ====================-->
-         <section class="enjoy section">
-            <h2 class="section__title">
-              Mangez et Savourez
-            </h2>
-
-            <div class="enjoy__container container grid">
-              <article class="enjoy__card">
-                <div class="enjoy__bg"></div>
-
-                <img src="assets/img/enjoy-1.png" alt="image" class="enjoy__img">
-                <h3 class="enjoy__title">Sain</h3>
-                <span class="enjoy__subtitle">Fruits Exotiques</span>
-              </article>
-                
-              <article class="enjoy__card">
-                <div class="enjoy__bg"></div>
-
-                <img src="assets/img/enjoy-2.png" alt="image" class="enjoy__img">
-                <h3 class="enjoy__title">Délicieux</h3>
-                <span class="enjoy__subtitle">Fruits du Verger</span>
-
-              </article>
-
-              <article class="enjoy__card">
-                <div class="enjoy__bg"></div>
-
-                <img src="assets/img/enjoy-3.png" alt="image" class="enjoy__img">
-                <h3 class="enjoy__title">Bio</h3>
-                <span class="enjoy__subtitle">Fruits du Soleil</span>
-              </article>
-            </div>
-         </section>
-
-         <!--==================== ABOUT US ====================-->
-         <section class="about section" id="about">
-            <div class="about__container container grid">
-              <div class="about__data">
-                <h2 class="section__title">
-                  Nous Offrons <br>
-                  Des Fruits Sains
-                </h2>
-
-                <p class="about__description">
-                  Nos fruits proviennent des meilleures récoltes, cultivés avec le plus grand soin pour garantir une qualité exceptionnelle. Savourez leurs arômes tout en prenant soin de votre santé.
-                </p>
-                
-                <a href="#" class="button">En Savoir Plus</a>
-
-                <img src="assets/img/fruit-line-1.png" alt="image" class="about__fruit">
-              </div>
-
-              <img src="assets/img/about-fruits.png" alt="image" class="about__img">
-            </div>
-
-            <img src="assets/img/branch-1.png" alt="image" class="about__branch">
-         </section>
-
-         <!--==================== POPULAR ====================-->
-         <section class="popular section" id="popular">
-            <h2 class="section__title">
-              Fruits Populaires
-            </h2>
-
-            <div class="popular__container container grid">
-              <article class="popular__card">
-                <div class="popular__bg"></div>
-
-                <img src="assets/img/popular-1.png" alt="image" class="popular__img">
-                <h3 class="popular__title">Pomme</h3>
-                <p class="popular__subtitle">Fruit Bio</p>
-                <p class="popular__price">3 € <span>/kg</span></p>
-
-                <button class="popular__button button">
-                  <i class="ri-add-line"></i>
-                </button>                
-              </article>
-
-              <article class="popular__card">
-                <div class="popular__bg"></div>
-
-                <img src="assets/img/popular-2.png" alt="image" class="popular__img">
-                <h3 class="popular__title">Pastèque</h3>
-                <p class="popular__subtitle">Fruit Bio</p>
-                <p class="popular__price">3 € <span>/kg</span></p>
-
-                <button class="popular__button button">
-                  <i class="ri-add-line"></i>
-                </button>                
-              </article>
-
-              <article class="popular__card">
-                <div class="popular__bg"></div>
-
-                <img src="assets/img/popular-3.png" alt="image" class="popular__img">
-                <h3 class="popular__title">Ananas</h3>
-                <p class="popular__subtitle">Fruit Bio</p>
-                <p class="popular__price">5 € <span>/kg</span></p>
-
-                <button class="popular__button button">
-                  <i class="ri-add-line"></i>
-                </button>                
-              </article>
-
-              <article class="popular__card">
-                <div class="popular__bg"></div>
-
-                <img src="assets/img/popular-4.png" alt="image" class="popular__img">
-                <h3 class="popular__title">Banane</h3>
-                <p class="popular__subtitle">Fruit Bio</p>
-                <p class="popular__price">2,5 € <span>/kg</span></p>
-
-                <button class="popular__button button">
-                  <i class="ri-add-line"></i>
-                </button>                
-              </article>
-
-              <article class="popular__card">
-                <div class="popular__bg"></div>
-
-                <img src="assets/img/popular-5.png" alt="image" class="popular__img">
-                <h3 class="popular__title">Fraise</h3>
-                <p class="popular__subtitle">Fruit Bio</p>
-                <p class="popular__price">6 € <span>/kg</span></p>
-
-                <button class="popular__button button">
-                  <i class="ri-add-line"></i>
-                </button>                
-              </article>
-
-              <article class="popular__card">
-                <div class="popular__bg"></div>
-
-                <img src="assets/img/popular-6.png" alt="image" class="popular__img">
-                <h3 class="popular__title">Mangue</h3>
-                <p class="popular__subtitle">Fruit Bio</p>
-                <p class="popular__price">5 € <span>/kg</span></p>
-
-                <button class="popular__button button">
-                  <i class="ri-add-line"></i>
-                </button>                
-              </article>
-            </div>
-         </section>
-
-         <!--==================== JOIN US ====================-->
-         <section class="join section" id="join">
-            <div class="join__container container grid">
-              <div class="join__content grid">
-                <div class="join__data">
-                  <h2 class="section__title">
-                    Rejoignez-nous
-                  </h2>
-
-                  <p class="join__description">
-                    Restez informé des dernières récoltes et des actualités sur nos fruits.
-                  </p>
-                </div>
-
-                  <form action="" class="join__form">
-                    <input type="email" placeholder="Entrez votre e-mail" class="join__input">
-                    <button class="join__button button">S'inscrire</button>
-                  </form>
-
-                  <img src="assets/img/join-bg.png" alt="image" class="join__bg">
-                </div>
-
-                <img src="assets/img/leaf.png" alt="image" class="join__leaf-1">
-                <img src="assets/img/leaf.png" alt="image" class="join__leaf-2">
-            </div>
-         </section>
-      </main>
-
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         <div class="footer__container container grid">
-          <div>
-              <a href="#" class="footer__logo">
-                <img src="assets/img/logo.png" alt="logo">Fruit
-              </a>
-
-              <p class="footer__description">
-                Mangez sainement, choisissez <br>
-                les meilleurs fruits.
-              </p>
-          </div>
-
-          <div class="footer__data grid">
-            <div>
-              <h3 class="footer__title">
-                Entreprise
-              </h3>
-
-              <ul class="footer__links">
-                <li>
-                  <a href="#" class="footer__link">FAQs</a>
-                </li>
-                
-                <li>
-                  <a href="#" class="footer__link">À Propos de Nous</a>
-                </li>
-                <li>
-
-                  <a href="#" class="footer__link">Contactez-nous</a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 class="footer__title">
-                Actualités
-              </h3>
-
-              <ul class="footer__links">
-                <li>
-                  <a href="#" class="footer__link">Articles</a>
-                </li>
-                
-                <li>
-                  <a href="#" class="footer__link">Témoignages</a>
-                </li>
-                <li>
-
-                  <a href="#" class="footer__link">Vidéos</a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 class="footer__title">
-                Adresse
-              </h3>
-
-              <ul class="footer__links">
-                <li class="footer__info">
-                  123 Rue des Vergers <br>
-                  49000 Angers, France
-                </li>
-
-                <li class="footer__info">
-                  7h - 18h
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 class="footer__title">
-                Réseaux Sociaux
-              </h3>
-
-              <div class="footer__social">
-                <a href="https://www.facebook.com/" target="-blanck" class="footer__social-link"><i class="ri-facebook-circle-line"></i></a>
-                
-                <a href="https://www.instagram.com/" target="-blanck" class="footer__social-link"><i class="ri-instagram-line"></i></a>
-                
-                <a href="https://www.youtube.com/" target="-blanck" class="footer__social-link"><i class="ri-youtube-line"></i></a>
-              </div>
-            </div>
-          </div>
-          <img src="assets/img/fruit-line-3.png" alt="image" class="footer__fruit">
-          <img src="assets/img/branch-1.png" alt="image" class="footer__branch-1">
-          <img src="assets/img/branch-2.png" alt="image" class="footer__branch-2">
-         </div>
-
-         <span class="footer__copy">
-           © Tous droits réservés        
-         </span>
-      </footer>
-
-      <!--========== SCROLL UP ==========-->
-        <a href="#" class="scrollup" id="scroll-up">
-          <i class="ri-arrow-up-s-line"></i>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+      crossorigin="" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Magasin de Fruits</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/logo.png" alt="logo" />Le Panier Vitaminé
         </a>
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src="assets/js/scrollreveal.min.js"></script>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Accueil</a>
+            </li>
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">À Propos</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#popular" class="nav__link">Populaire</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#join" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Close Button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+
+          <img src="assets/img/branch-2.png" alt="image" class="nav__img-1" />
+          <img
+            src="assets/img/fruit-line-1.png"
+            alt="image"
+            class="nav__img-2" />
+        </div>
+
+        <div class="nav__buttons">
+          <!-- Dark & Light mode -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+          <!-- <i class="ri-sun-line change-theme" id="theme-button"></i> -->
+
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              Savourez <br />
+              Les Meilleurs <br />
+              Fruits Frais
+            </h1>
+
+            <p class="home__description">
+              Dégustez les meilleurs fruits bio, récoltés avec le plus grand
+              soin pour une qualité optimale, offrant des saveurs uniques et
+              délicieuses.
+            </p>
+
+            <a href="#" class="button"> Commander </a>
+
+            <img
+              src="assets/img/fruit-line-2.png"
+              alt="image"
+              class="home__fruit" />
+          </div>
+
+          <img src="assets/img/home-fruits.png" alt="image" class="home__img" />
+        </div>
+
+        <img src="assets/img/branch-2.png" alt="image" class="home__branch" />
+      </section>
+
+      <!--==================== ENJOY ====================-->
+      <section class="enjoy section">
+        <h2 class="section__title">Mangez et Savourez</h2>
+
+        <div class="enjoy__container container grid">
+          <article class="enjoy__card">
+            <div class="enjoy__bg"></div>
+
+            <img src="assets/img/enjoy-1.png" alt="image" class="enjoy__img" />
+            <h3 class="enjoy__title">Sain</h3>
+            <span class="enjoy__subtitle">Fruits Exotiques</span>
+          </article>
+
+          <article class="enjoy__card">
+            <div class="enjoy__bg"></div>
+
+            <img src="assets/img/enjoy-2.png" alt="image" class="enjoy__img" />
+            <h3 class="enjoy__title">Délicieux</h3>
+            <span class="enjoy__subtitle">Fruits du Verger</span>
+          </article>
+
+          <article class="enjoy__card">
+            <div class="enjoy__bg"></div>
+
+            <img src="assets/img/enjoy-3.png" alt="image" class="enjoy__img" />
+            <h3 class="enjoy__title">Bio</h3>
+            <span class="enjoy__subtitle">Fruits du Soleil</span>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== ABOUT US ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title">
+              Nous Offrons <br />
+              Des Fruits Sains
+            </h2>
+
+            <p class="about__description">
+              Nos fruits proviennent des meilleures récoltes, cultivés avec le
+              plus grand soin pour garantir une qualité exceptionnelle. Savourez
+              leurs arômes tout en prenant soin de votre santé.
+            </p>
+
+            <a href="#" class="button">En Savoir Plus</a>
+
+            <img
+              src="assets/img/fruit-line-1.png"
+              alt="image"
+              class="about__fruit" />
+          </div>
+
+          <img
+            src="assets/img/about-fruits.png"
+            alt="image"
+            class="about__img" />
+        </div>
+
+        <img src="assets/img/branch-1.png" alt="image" class="about__branch" />
+      </section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular">
+        <h2 class="section__title">Fruits Populaires</h2>
+
+        <div class="popular__container container grid">
+          <article class="popular__card">
+            <div class="popular__bg"></div>
+
+            <img
+              src="assets/img/popular-1.png"
+              alt="image"
+              class="popular__img" />
+            <h3 class="popular__title">Pomme</h3>
+            <p class="popular__subtitle">Fruit Bio</p>
+            <p class="popular__price">3 € <span>/kg</span></p>
+
+            <button class="popular__button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card">
+            <div class="popular__bg"></div>
+
+            <img
+              src="assets/img/popular-2.png"
+              alt="image"
+              class="popular__img" />
+            <h3 class="popular__title">Pastèque</h3>
+            <p class="popular__subtitle">Fruit Bio</p>
+            <p class="popular__price">3 € <span>/kg</span></p>
+
+            <button class="popular__button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card">
+            <div class="popular__bg"></div>
+
+            <img
+              src="assets/img/popular-3.png"
+              alt="image"
+              class="popular__img" />
+            <h3 class="popular__title">Ananas</h3>
+            <p class="popular__subtitle">Fruit Bio</p>
+            <p class="popular__price">5 € <span>/kg</span></p>
+
+            <button class="popular__button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card">
+            <div class="popular__bg"></div>
+
+            <img
+              src="assets/img/popular-4.png"
+              alt="image"
+              class="popular__img" />
+            <h3 class="popular__title">Banane</h3>
+            <p class="popular__subtitle">Fruit Bio</p>
+            <p class="popular__price">2,5 € <span>/kg</span></p>
+
+            <button class="popular__button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card">
+            <div class="popular__bg"></div>
+
+            <img
+              src="assets/img/popular-5.png"
+              alt="image"
+              class="popular__img" />
+            <h3 class="popular__title">Fraise</h3>
+            <p class="popular__subtitle">Fruit Bio</p>
+            <p class="popular__price">6 € <span>/kg</span></p>
+
+            <button class="popular__button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card">
+            <div class="popular__bg"></div>
+
+            <img
+              src="assets/img/popular-6.png"
+              alt="image"
+              class="popular__img" />
+            <h3 class="popular__title">Mangue</h3>
+            <p class="popular__subtitle">Fruit Bio</p>
+            <p class="popular__price">5 € <span>/kg</span></p>
+
+            <button class="popular__button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== JOIN US ====================-->
+      <section class="join section" id="join">
+        <div class="join__container container grid">
+          <div class="join__content grid">
+            <div class="join__data">
+              <h2 class="section__title">Rejoignez-nous</h2>
+
+              <p class="join__description">
+                Restez informé des dernières récoltes et des actualités sur nos
+                fruits.
+              </p>
+            </div>
+
+            <form action="" class="join__form">
+              <input
+                type="email"
+                placeholder="Entrez votre e-mail"
+                class="join__input" />
+              <button class="join__button button">S'inscrire</button>
+            </form>
+
+            <img src="assets/img/join-bg.png" alt="image" class="join__bg" />
+          </div>
+
+          <img src="assets/img/leaf.png" alt="image" class="join__leaf-1" />
+          <img src="assets/img/leaf.png" alt="image" class="join__leaf-2" />
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo">
+            <img src="assets/img/logo.png" alt="logo" />Le Panier Vitaminé
+          </a>
+
+          <p class="footer__description">
+            Mangez sainement, choisissez <br />
+            les meilleurs fruits.
+          </p>
+        </div>
+
+        <div class="footer__data grid">
+          <div>
+            <h3 class="footer__title">Entreprise</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">FAQs</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">À Propos de Nous</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Contactez-nous</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Actualités</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Articles</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Témoignages</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Vidéos</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Adresse</h3>
+
+            <ul class="footer__links">
+              <li class="footer__info">
+                123 Rue des Vergers <br />
+                49000 Angers, France
+              </li>
+
+              <li class="footer__info">7h - 18h</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Réseaux Sociaux</h3>
+
+            <div class="footer__social">
+              <a
+                href="https://www.facebook.com/"
+                target="-blanck"
+                class="footer__social-link"
+                ><i class="ri-facebook-circle-line"></i
+              ></a>
+
+              <a
+                href="https://www.instagram.com/"
+                target="-blanck"
+                class="footer__social-link"
+                ><i class="ri-instagram-line"></i
+              ></a>
+
+              <a
+                href="https://www.youtube.com/"
+                target="-blanck"
+                class="footer__social-link"
+                ><i class="ri-youtube-line"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <img
+          src="assets/img/fruit-line-3.png"
+          alt="image"
+          class="footer__fruit" />
+        <img
+          src="assets/img/branch-1.png"
+          alt="image"
+          class="footer__branch-1" />
+        <img
+          src="assets/img/branch-2.png"
+          alt="image"
+          class="footer__branch-2" />
+      </div>
+
+      <span class="footer__copy">
+        &#169; Tous droits réservés | Le Panier Vitaminé
+      </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
